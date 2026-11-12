@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.env
+.lead-data/
+.media-data/
+batch-runner

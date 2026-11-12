@@ -1,0 +1,4 @@
+fastapi==0.141.1
+uvicorn==0.52.1
+langgraph==1.2.20
+langchain-anthropic==1.7.10

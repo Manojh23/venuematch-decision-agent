@@ -1,0 +1,221 @@
+{
+  "requests": 30,
+  "expected_decisions_routes_and_evidence": 30,
+  "always_call_baseline": 30,
+  "fixture_model_calls": 3,
+  "direct_routes": 21,
+  "cache_hits": 6,
+  "notes": "Offline fixtures, not live accuracy, costs, or latency. The baseline counts one call per request by definition.",
+  "cases": [
+    {
+      "round": 1,
+      "case": 1,
+      "decision": "shortlist",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 1,
+      "case": 2,
+      "decision": "review",
+      "route": "model",
+      "passed": true
+    },
+    {
+      "round": 1,
+      "case": 3,
+      "decision": "shortlist",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 1,
+      "case": 4,
+      "decision": "out_of_scope",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 1,
+      "case": 5,
+      "decision": "out_of_scope",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 1,
+      "case": 6,
+      "decision": "shortlist",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 1,
+      "case": 7,
+      "decision": "review",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 1,
+      "case": 8,
+      "decision": "shortlist",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 1,
+      "case": 9,
+      "decision": "review",
+      "route": "model",
+      "passed": true
+    },
+    {
+      "round": 1,
+      "case": 10,
+      "decision": "review",
+      "route": "model",
+      "passed": true
+    },
+    {
+      "round": 2,
+      "case": 1,
+      "decision": "shortlist",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 2,
+      "case": 2,
+      "decision": "review",
+      "route": "cache",
+      "passed": true
+    },
+    {
+      "round": 2,
+      "case": 3,
+      "decision": "shortlist",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 2,
+      "case": 4,
+      "decision": "out_of_scope",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 2,
+      "case": 5,
+      "decision": "out_of_scope",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 2,
+      "case": 6,
+      "decision": "shortlist",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 2,
+      "case": 7,
+      "decision": "review",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 2,
+      "case": 8,
+      "decision": "shortlist",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 2,
+      "case": 9,
+      "decision": "review",
+      "route": "cache",
+      "passed": true
+    },
+    {
+      "round": 2,
+      "case": 10,
+      "decision": "review",
+      "route": "cache",
+      "passed": true
+    },
+    {
+      "round": 3,
+      "case": 1,
+      "decision": "shortlist",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 3,
+      "case": 2,
+      "decision": "review",
+      "route": "cache",
+      "passed": true
+    },
+    {
+      "round": 3,
+      "case": 3,
+      "decision": "shortlist",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 3,
+      "case": 4,
+      "decision": "out_of_scope",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 3,
+      "case": 5,
+      "decision": "out_of_scope",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 3,
+      "case": 6,
+      "decision": "shortlist",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 3,
+      "case": 7,
+      "decision": "review",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 3,
+      "case": 8,
+      "decision": "shortlist",
+      "route": "rules",
+      "passed": true
+    },
+    {
+      "round": 3,
+      "case": 9,
+      "decision": "review",
+      "route": "cache",
+      "passed": true
+    },
+    {
+      "round": 3,
+      "case": 10,
+      "decision": "review",
+      "route": "cache",
+      "passed": true
+    }
+  ]
+}
