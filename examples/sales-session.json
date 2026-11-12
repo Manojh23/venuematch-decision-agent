@@ -1,0 +1,25 @@
+{
+  "leads": [
+    {
+      "id": "e2d5fd01-a5d6-4556-8d93-f289ab73426c",
+      "segment": "wedding",
+      "region": "MA",
+      "budget": null,
+      "note": "Need a waterfront venue for our wedding reception."
+    },
+    {
+      "id": "895f4371-5d9d-4231-b7ed-b484be296240",
+      "segment": "corporate",
+      "region": "MA",
+      "budget": 12000,
+      "note": "Looking for a venue for our annual offsite."
+    },
+    {
+      "id": "66000798-7a73-42ad-b02c-96847c9e423c",
+      "segment": "community",
+      "region": "RI",
+      "budget": 1500,
+      "note": "Looking for a space for a small fundraiser."
+    }
+  ]
+}
